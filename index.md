@@ -25,6 +25,7 @@ Welcome to my website!
 
 ## Links
 
+- [GitHub](https://www.github.com/StephenMortada)
 - [Cemetech](https://www.cemetech.net/users/StephenM)
 - [Youtube](https://www.youtube.com/@stephenmortada)
 
