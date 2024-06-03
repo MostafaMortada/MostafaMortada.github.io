@@ -10,8 +10,8 @@ Welcome to my website!
 
 ### Complete
 
-- [Basic Basic Revolution Classic](https://ceme.tech/t19545)
-- [Basic Basic Revolution: The Graphical](https://ceme.tech/t19568)
+- [Basic Basic Revolution Classic](https://ceme.tech/t19545) v1.0
+- [Basic Basic Revolution: The Graphical](https://ceme.tech/t19568) v1.0
 
 ### In Development
 
@@ -19,7 +19,7 @@ Welcome to my website!
 
 ### Discontinued
 
-- [PlaneSim](https://ceme.tech/t19487)
+- [PlaneSim](https://ceme.tech/t19487) Vt 0.2
 
 ---
 
