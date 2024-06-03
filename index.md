@@ -11,10 +11,10 @@ Welcome to my website!
 ### Complete
 
 - [Basic Basic Revolution Classic](https://ceme.tech/t19545)
+- [Basic Basic Revolution: The Graphical](https://ceme.tech/t19568)
 
 ### In Development
 
-- [Basic Basic Revolution: The Graphical](https://ceme.tech/t19568)
 - [Mint Text Editor](https://github.com/StephenMortada/Mint)
 
 ### Discontinued
