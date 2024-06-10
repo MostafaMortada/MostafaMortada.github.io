@@ -15,8 +15,6 @@ Welcome to my website!
 
 ### In Development
 
-- [Mint Text Editor](https://github.com/StephenMortada/Mint)
-
 ### Discontinued
 
 - [PlaneSim](https://ceme.tech/t19487) Vt 0.2
