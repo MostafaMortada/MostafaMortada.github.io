@@ -15,7 +15,7 @@ Welcome to my website! I am a programmer (mainly TI-BASIC and sometimes Lua) and
 
 ### In Development
 
-- Plottery _(This is a rewrite of 'Plot Sprite Editor')_
+- Plottery _(This is a complete rewrite of 'Plot Sprite Editor')_
 - BBR.Edit - a chart editor for BBR Classic and BBRG
 
 ### Discontinued
