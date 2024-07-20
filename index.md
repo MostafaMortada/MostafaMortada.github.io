@@ -1,8 +1,8 @@
-# StephenM
+# StephenM/StephenMortada
 
 *aka **Mostafa Mortada***
 
-Welcome to my website!
+Welcome to my website! I am a programmer (mainly TI-BASIC and sometimes Lua) and also a beginner in animation.
 
 ---
 
@@ -15,9 +15,12 @@ Welcome to my website!
 
 ### In Development
 
+- Plottery _(This is a rewrite of 'Plot Sprite Editor')_
+
 ### Discontinued
 
-- [PlaneSim](https://ceme.tech/t19487) Vt 0.2
+- [PlaneSim](https://ceme.tech/t19487)
+- [Plot Sprite Editor](https://github.com/StephenMortada/Plot-Sprite-Editor)
 
 ---
 
@@ -25,7 +28,7 @@ Welcome to my website!
 
 - [GitHub](https://www.github.com/StephenMortada)
 - [Cemetech](https://www.cemetech.net/users/StephenM)
-- [Youtube](https://www.youtube.com/@stephenmortada)
+- [Youtube](https://www.youtube.com/@stephenmortada) <-- I do animation!
 
 ---
 
