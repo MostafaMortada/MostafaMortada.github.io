@@ -1,8 +1,8 @@
-# StephenM/StephenMortada
+# StephenM
 
-*aka **Mostafa Mortada***
+*also known as **Mostafa Mortada**, or **Sattouf***
 
-Welcome to my website! I am a programmer (mainly TI-BASIC and sometimes Lua) and also a beginner in animation.
+Welcome to my website!
 
 ---
 
@@ -12,11 +12,12 @@ Welcome to my website! I am a programmer (mainly TI-BASIC and sometimes Lua) and
 
 - [Basic Basic Revolution Classic](https://ceme.tech/t19545) v1.0
 - [Basic Basic Revolution: The Graphical](https://ceme.tech/t19568) v1.0
+- [BBR.Edit - a chart editor for BBR Classic and BBRG](https://ceme.tech/t19818) v1.0
 
 ### In Development
 
 - Plottery _(This is a complete rewrite of 'Plot Sprite Editor')_
-- BBR.Edit - a chart editor for BBR Classic and BBRG
+- BBRG v1.1
 
 ### Discontinued
 
@@ -29,10 +30,5 @@ Welcome to my website! I am a programmer (mainly TI-BASIC and sometimes Lua) and
 
 - [GitHub](https://www.github.com/StephenMortada)
 - [Cemetech](https://www.cemetech.net/users/StephenM)
-- [Youtube](https://www.youtube.com/@stephenmortada) <-- I do animation!
-
----
-
-## Contact
-
-Email: <NoForgetAtAll@hotmail.com>
+- [Youtube](https://www.youtube.com/@stephenmortada)
+- [X](https://x.com/MostafaTMortada?t=Z5AMVAwo2-UBk3XlTdOt2Q&s=09)
