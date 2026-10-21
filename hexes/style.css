@@ -2,7 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: 'Trebuchet MS', sans-serif;
-	background-image: url('images/bg.png');
+	background-image: url('images/bg_new.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -72,6 +72,8 @@ img {
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
+
+/* Thanks ti-kid for the colors (^v^) */
 
 /* unvisited link */
 a:link {

@@ -3,50 +3,73 @@
 	<head>
 		<link rel="stylesheet" href="style.css">
 		<title>Hexes</title>
-		<link rel="icon" type="image/x-icon" href="images/hexes-icon.png">
+		<link rel="icon" type="image/x-icon" href="images/hexes-icon-new.png">
 	</head>
 	<body>
-		<h1>Hexes Hex Editor BETA</h1>
+		<h1>Hexes Hex Editor v2.0</h1>
+
 		<h3 style="text-align: center;">The ultimate hex editor for the TI-84 Plus CE calculator!</h3>
 		
 		<div class="parent">
-			<div class="a" style="scale:200%;margin:10%;"><img src="images/recording.gif"></div>
-		</div>
-		
-		<div class="parent">
-			<div class="a"><img src="images/1.png"></div>
-			<div class="a"><img src="images/2.png"></div>
-			<div class="a"><img src="images/3.png"></div>
-			<div class="a"><img src="images/4.png"></div>
+			<div class="a" style="scale:200%;margin:10%;"><img src="images/release/demo.gif"></div>
 		</div>
 		
 		<div class="box">
+			<p>
 			Hexes is a hex editor utility for the TI-84 Plus CE and TI-83 Premium CE calculators and their derivatives,
-			designed to be pleasant and friendly to use, providing a clean interface for viewing and editing
-			files directly on your calculator.			
+			designed to be pleasant and friendly, providing a clean interface for viewing and editing
+			files precisely directly on your calculator.
+			</p>
+
+			<p>
+			This is a C rewrite of my 'old' hex editor of the same name, which was written in the ICE programming language.
+			It was buggy, hard to use, and overall just not something I would personally use as a hex editor. So, I decided to finally rewrite this in C. Enjoy! :)
+			</p>
+			<br>
+			<div class="parent">
+				<div class="a"><img src="images/release/editor1.png"></div>
+				<div class="a"><img src="images/release/files1.png"></div>
+			</div>
 		</div>
 		
-		<h2>Releases</h2>
+		<h2>Index</h2>
 		<div class="box">
-			This program is still in beta! However, you can try out the latest build from the
-			<a href="https://github.com/MostafaMortada/hexes">GitHub repository</a>.
+			<ol>
+				<li><a href="#rel">Releases</a></li>
+				<li><a href="#inst">Installation</a></li>
+				<li><a href="#build">Building</a></li>
+				<li><a href="#prog">Progress Updates</a></li>
+				<li><a href="#usage">How to use</a></li>
+				<li><a href="#headless">Headless Start</a></li>
+				<li><a href="#custom">Customization</a></li>
+			</ol>
+		</div>
+
+		<h2 id="rel">Releases</h2>
+		<div class="box">
+			<ul>
+				<li><h3>21st of October, 2026 - Version 2.0 (First full release)</h3>
+					<p>Woo! The C rewrite is finally released! This is the fruit of 4 months of work, and I am very proud of it. Of course, I have plans for many features
+					to be added in the future, so this is merely the beginning.</p>
+				</li>
+			</ul>
+			<br>
+			<br>
+			Changes and bugfixes are pushed to the <a href="https://github.com/MostafaMortada/hexes">GitHub repository</a>, so do check them out there.
 		</div>
 		
-		<h2>Installation</h2>
+		<h2 id="inst">Installation</h2>
 		<div class="box">
 			Go to <span class="mono">releases</span> <i>(not applicable currently as there are no releases of the program yet)</i> and download <span class="mono">HEXES.8xp</span>.
 			Transfer it to your calculator using TI Connect CE or TILP or whatever linking program you desire.
 
 			<h3 style="color:red;">! WARNING !</h3>
 			
-			Depending on the version of TI-OS on your calculator, you may need to use the
-			<a href="https://yvantt.github.io/arTIfiCE/">
-			<img src="https://yvantt.github.io/arTIfiCE/images/artifice.gif" alt="arTIfiCE" style="width:10%;">
-			</a> jailbreak.
+			Depending on the version of TI-OS on your calculator, you may need to use the arTIfiCE jailbreak.
 			See more details <a href="https://yvantt.github.io/arTIfiCE/">here.</a>
 		</div>
 		
-		<h2>Building</h2>
+		<h2 id="build">Building</h2>
 		<div class="box">
 			First, make sure you have the CE C Toolchain installed on your computer. See <a href="https://ce-programming.github.io/toolchain/static/getting-started.html">this site</a>
 			for instructions and details.
@@ -54,15 +77,109 @@
 			Navigate to the root folder of the project, and simply run the command <span class="mono">make</span> .
 			<br><br>
 			<span class="mono">HEXES.8xp</span> will be created in the <span class="mono">bin/</span> directory.
+			<br><br><hr><br>
+			There are a few options you can set, however, I do not guarantee the build would be fully functional if enabled (currently the options are only graphical, so your data is not at risk) Append these to the <span class="mono">make</span> command to enable them:
+			<ul>
+				<li><span class="mono">ROUNDED_CORNERS=1</span> : An experiment to round the corners on some UI elements.</li>
+				<li><span class="mono">FONT_MSTMONO=1</span> : Changes the font to another one I designed. A few special characters are missing, but otherwise works fine.</li>
+				<li><span class="mono">FONTWID_CONFIG=1</span> : Adds an option in the configuration menu to change the font width.</li>
+			</ul>
 		</div>
 		
-		<h2>Progress Updates</h2>
+		<h2 id="prog">Progress Updates</h2>
 		<div class="box">
-			Progress updates are posted to the <a href="https://ceme.tech/t19975">dedicated forum topic on Cemetech</a>.
+			Progress updates are posted to the <a href="https://ceme.tech/t19975">dedicated forum topic on Cemetech</a> and Cemetech chat, or you can read the commit messages.
 			<br><br>
-			If you have any feedback or bug reports, please post them there!
+			If you have any feedback or bug reports, either create an issue or create a post in the forum topic!
 		</div>
 		
+		<h2 id="usage">How to use</h2>
+		<div class="box">
+			<h3>File selector</h3>
+			<p>This is the menu that is shown to you upon opening Hexes.</p>
+			<div class="a"><img src="images/release/files1.png"></div>
+			<p>Controls:</p>
+			<ul>
+				<li><b>← → :</b> Switch tabs</li>
+				<li><b>↑ ↓ :</b> Move cursor</li>
+				<li><b>[2nd] / [enter] :</b> Open selected file</li>
+				<li><b>[y=] in 'Recents' tab only:</b> Clear list</li>
+				<li><b>[graph] :</b> About</li>
+				<li><b>[clear] :</b> Quit</li>
+			</ul>
+			<hr>
+			<h3>Editor</h3>
+			<p>This is the real meat of the program, where hex editing happens (duh)</p>
+			<div class="a"><img src="images/release/files1.png"></div>
+			<p>Controls:</p>
+			<ul>
+				<li><b>← ↑ ↓ → :</b> Move cursor</li>
+				<li><b>[mode] :</b> Change editing mode between the middle pane and right pane</li>
+				<li><b>[y=] :</b> 'File' menu</li>
+				<li><b>[window] :</b> 'Edit' menu</li>
+				<li><b>[zoom] :</b> 'View' menu</li>
+				<li><b>[trace] :</b> 'Navigate' menu</li>
+				<li><b>[graph] :</b> Help</li>
+				<li><b>[clear] :</b> Quit</li>
+			</ul>
+			<p>
+				When the middle pane is selected, you can use the number keys [0]-[9] along with
+				[math], [apps], [prgm], [x<sup>-1</sup>], [sin], and [cos] (for A, B, C, D, E, and F respectively)
+				to type hex digits at the cursor location.
+			</p>
+			<p>
+				When the right pane is selected, you can use the keyboard to type regular ASCII characters.
+				Use modifiers like [2nd], [alpha], and [XTθn].
+			</p>
+			<p>
+				By default, modifiers are set to be sticky, however, that can be changed from the customization/configuration menu.
+				Also by default, pressing alpha toggles between uppercase and lowercase (only when the modifier option mentioned in the line above is set to Toggle or Toggle Lock)
+				This can be disabled, making [alpha] toggle uppercase and [XTθn] toggle lowercase.
+			</p>
+		</div>
+
+		<h2 id="headless">Headless Start</h2>
+		<div class="box">
+			<p>
+				This feature can be used by other programs and shells by writing specific data to the `Ans` variable then launching Hexes. This skips the file selection screen and immediately shows the editor open for the file set in `Ans`.
+			</p>
+
+			<p>
+				Headless start is a feature borrowed from HexaEdit (by Captain Calc), another hex editor for the TI-84 Plus CE, and Hexes uses the exact same format HexaEdit uses, for compatibility purposes. See <a href="https://github.com/captain-calc/HexaEdit-CE#headless-start">the HexaEdit README</a> for the specifications of this format.
+			</p>
+		</div>
+
+		<h2 id="custom">Customization</h2>
+		<div class="box">
+			Hexes offers 9 preset palettes to choose from, which, well, is probably a bit much, but it's fine :)
+			<br>
+			<br>
+			You can also set each aspect of the color palette yourself.
+			<br>
+			<br>
+			Here are the palettes:
+			<br>
+			<br>
+			<br>
+			<div class="parent">
+				<div class="a"><img src="images/release/palette_defaultblack.png"></div>
+				<div class="a"><img src="images/release/palette_defaultwhite.png"></div>
+				<div class="a"><img src="images/release/palette_ceashell.png"></div>
+			</div>
+			<br>
+			<div class="parent">
+				<div class="a"><img src="images/release/palette_biosblue.png"></div>
+				<div class="a"><img src="images/release/palette_lcdmono.png"></div>
+				<div class="a"><img src="images/release/palette_moderndark.png"></div>
+			</div>
+			<br>
+			<div class="parent">
+				<div class="a"><img src="images/release/palette_hexaedit.png"></div>
+				<div class="a"><img src="images/release/palette_monowhite.png"></div>
+				<div class="a"><img src="images/release/palette_monoblack.png"></div>
+			</div>
+		</div>
+
 		<div class="box">
 			Copyright © 2024-2026 Mostafa Mortada (StephenM) <br>
 			Licensed under the GNU General Public License 3.0
